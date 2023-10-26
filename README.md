@@ -18,21 +18,20 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-# Program to swap two values.
-# Developed by: THARUN D
-# RegisterNumber: 23013993
+# Program to circulate N values.
+# Developed by: THARUN D 
+# RegisterNumber:23013993
 ~~~
-def swap(a,b):
-    c=a
-    a=b
-    b=c
-    print("Swapped values are: {} {}".format(a,b))
-a=input()
-b=input()
-swap(a,b)
+def circulate():
+    l=eval(input())
+    n=int(input())
+    l=l[n:]+l[:n]
+    print("After circulating the values are:",l)
 ~~~
 # OUTPUT
-![photo](https://github.com/THARUNDT/Swapping-two-values/assets/144871537/5826ac4d-2a84-4884-a26f-801eb2169e91)
+![Screenshot 2023-10-26 220501](https://github.com/THARUNDT/Swapping-two-values/assets/144871537/86024bff-9580-4d81-9c84-e896c4bc18de)
+
+
 
 
 
