@@ -18,19 +18,20 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-# Program to circulate N values.
-# Developed by: THARUN D 
+# Program to find the distance between two points.
+# Developed by: THARUN D
 # RegisterNumber:23013993
 ~~~
-def circulate():
-    l=eval(input())
-    n=int(input())
-    l=l[n:]+l[:n]
-    print("After circulating the values are:",l)
+import math
+x1=4
+x2=10
+y1=2
+y2=6
+distance=math.sqrt((x2-x1)**2+(y2-y1)**2)
+print(round(distance,2))
 ~~~
 # OUTPUT
-![Screenshot 2023-10-26 220501](https://github.com/THARUNDT/Swapping-two-values/assets/144871537/86024bff-9580-4d81-9c84-e896c4bc18de)
-
+![Screenshot 2023-10-26 222258](https://github.com/THARUNDT/Swapping-two-values/assets/144871537/f51fc0ac-a9c8-4e9e-b9dc-37d9e6b60f5d)
 
 
 
