@@ -18,20 +18,21 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-# Program to find the distance between two points.
+# Program to swap two values.
 # Developed by: THARUN D
-# RegisterNumber:23013993
+# RegisterNumber: 23013993
 ~~~
-import math
-x1=4
-x2=10
-y1=2
-y2=6
-distance=math.sqrt((x2-x1)**2+(y2-y1)**2)
-print(round(distance,2))
+def swap(a,b):
+    c=a
+    a=b
+    b=c
+    print("Swapped values are: {} {}".format(a,b))
+a=input()
+b=input()
+swap(a,b)
 ~~~
 # OUTPUT
-![Screenshot 2023-10-26 222258](https://github.com/THARUNDT/Swapping-two-values/assets/144871537/f51fc0ac-a9c8-4e9e-b9dc-37d9e6b60f5d)
+![photo](https://github.com/THARUNDT/Swapping-two-values/assets/144871537/de6f0695-0e64-4b5c-ba87-aa52a9ffb42c)
 
 
 
